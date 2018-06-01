@@ -1,13 +1,14 @@
 # Lenovo Flex 2-15 Hackintosh
 
 What works (currently using macOS 10.13.3):
+  - Ethernet
   - Touchscreen
   - USB / Card Reader
-  - Audio / Mic over Speakers, Jack and HDMI
-  - Ethernet
-  - Hotkeys for Audio / Brightness
+  - Hotkeys for Audio, Brightness (patched)
+  - Audio (Speakers, Jack and HDMI), Webcam + Microphone
 
 What does not work:
+  - Mic over Combojack (also not supported on any other OS)
   - Wifi / Bluetooth (needs replacement card since Intel is not supported)
 
 Untested / yet to do:
