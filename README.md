@@ -5,6 +5,7 @@ What works (currently using macOS 10.13.3):
   - USB / Card Reader
   - Audio / Mic over Speakers and Jack
   - Ethernet
+  - Hotkeys for Audio / Brightness
 
 What does not work:
   - Wifi / Bluetooth (needs replacement card)
@@ -37,4 +38,4 @@ Based on:
 Read up on one of RehabMan's guides and apply following patches
 - Audio Layout 3
 - IRQ Fix
-- My battery patch file
+- My battery and brightness control patch file
