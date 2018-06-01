@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>trackpadTab</key>
+	<dict>
+		<key>localizableStrings</key>
+		<array>
+			<dict>
+				<key>comments</key>
+				<string>Lokalizálható indexszavak</string>
+				<key>index</key>
+				<string>dupla kattintás, két kattintás, kettős kattintás, kattintás, kattint, követ, húz, vonszol, gyorsabb, gyorsabban, sebesség, lassú, lassabban, kurzor, nyíl, mutató, követés, húzás, vonszolás, lassabb, lassítás, lassuló, lassít</string>
+				<key>title</key>
+				<string>Trackpadsebesség</string>
+			</dict>
+			<dict>
+				<key>comments</key>
+				<string>Lokalizálható indexszavak</string>
+				<key>index</key>
+				<string>jobb, jobb gombos kattintás, kettő, három, négy, ujj, érint, görget, húz, koppint, csippent, nagyít, forgat, kitár, legyint, érintés, görgetés, húzás, koppintás, csippentés, nagyítás, forgatás, legyintés, kitárás, teljes képernyő, teljes képernyőn, teljes képernyős, Íróasztal</string>
+				<key>title</key>
+				<string>Trackpad-mozdulatok</string>
+			</dict>
+			<dict>
+				<key>comments</key>
+				<string>Lokalizálható indexszavak</string>
+				<key>index</key>
+				<string></string>
+				<key>title</key>
+				<string>Trackpad-méretezés</string>
+			</dict>
+			<dict>
+				<key>index</key>
+				<string>mély megnyomás, haptikus, jelzés, adatészlelők, keresés</string>
+				<key>title</key>
+				<string>Erős kattintás</string>
+			</dict>
+		</array>
+		<key>portableOnly</key>
+		<true/>
+	</dict>
+</dict>
+</plist>

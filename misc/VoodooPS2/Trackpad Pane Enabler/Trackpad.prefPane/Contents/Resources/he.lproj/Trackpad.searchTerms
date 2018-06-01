@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>trackpadTab</key>
+	<dict>
+		<key>localizableStrings</key>
+		<array>
+			<dict>
+				<key>comments</key>
+				<string>מילות אינדקס הניתנות לתרגום</string>
+				<key>index</key>
+				<string>לחיצה כפולה, לחיצה, עקוב, גרור, מהר יותר, מהירות, לאט, סמן, חץ, סמן, לחיצה, מעקב, גרירה, לאט יותר, מאט </string>
+				<key>title</key>
+				<string>מהירות משטח המגע</string>
+			</dict>
+			<dict>
+				<key>comments</key>
+				<string>מילות אינדקס הניתנות לתרגום</string>
+				<key>index</key>
+				<string>ימין, לחיצה ימנית, שתיים, שלוש, ארבע, אצבעות, מגע, גלילה, גרירה, הקשה, צביטה, הגדלה, הקטנה, סיבוב, פריסה, החלקה, נגיעה, לגלול, לגרור, להקיש, לצבוט, להגדיל, להקטין, לסובב, להחליק, לפרוס, מסך מלא, חלון גדול, מסך גדול, מכתבה</string>
+				<key>title</key>
+				<string>מחוות משטח המגע</string>
+			</dict>
+			<dict>
+				<key>comments</key>
+				<string>מילות אינדקס הניתנות לתרגום</string>
+				<key>index</key>
+				<string></string>
+				<key>title</key>
+				<string>הגדלה באמצעות משטח מגע</string>
+			</dict>
+			<dict>
+				<key>index</key>
+				<string>לחיצה חזקה, רטט אינטראקטיבי, משוב, מזהי נתונים, חיפוש, חפש</string>
+				<key>title</key>
+				<string>כפה לחיצה</string>
+			</dict>
+		</array>
+		<key>portableOnly</key>
+		<true/>
+	</dict>
+</dict>
+</plist>

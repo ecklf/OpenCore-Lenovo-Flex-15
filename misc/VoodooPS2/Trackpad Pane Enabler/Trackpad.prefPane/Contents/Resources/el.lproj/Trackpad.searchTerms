@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>trackpadTab</key>
+	<dict>
+		<key>localizableStrings</key>
+		<array>
+			<dict>
+				<key>comments</key>
+				<string>Τοπικοποιήσιμες λέξεις ευρετηρίου</string>
+				<key>index</key>
+				<string>διπλό κλικ, κλικ, μεταφορά, σύρσιμο, γρηγορότερα, πιο, γρήγορα, ταχύτητα, αργά, δρομέας, βέλος, κατάδειξη, επιβράδυνση</string>
+				<key>title</key>
+				<string>Ταχύτητα επιφάνειας αφής</string>
+			</dict>
+			<dict>
+				<key>comments</key>
+				<string>Τοπικοποιήσιμες λέξεις ευρετηρίου</string>
+				<key>index</key>
+				<string>δεξιά, δεξιό κλικ, δύο, τρία, τέσσερα, δάχτυλα, αφή, κύλιση, μεταφορά, άγγιγμα, σύγκλιση, ζουμ, περιστροφή, επέκταση, σάρωση, πλήρη οθόνη, Γραφείο εργασίας</string>
+				<key>title</key>
+				<string>Χειρονομίες στην επιφάνεια αφής</string>
+			</dict>
+			<dict>
+				<key>comments</key>
+				<string>Τοπικοποιήσιμες λέξεις ευρετηρίου</string>
+				<key>index</key>
+				<string></string>
+				<key>title</key>
+				<string>Ζουμ με την επιφάνεια αφής</string>
+			</dict>
+			<dict>
+				<key>index</key>
+				<string>έντονο πάτημα, απτικό, ανάδραση, ανιχνευτές δεδομένων, εύρεση, αναζήτηση</string>
+				<key>title</key>
+				<string>Δυνατό κλικ</string>
+			</dict>
+		</array>
+		<key>portableOnly</key>
+		<true/>
+	</dict>
+</dict>
+</plist>

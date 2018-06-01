@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>trackpadTab</key>
+	<dict>
+		<key>localizableStrings</key>
+		<array>
+			<dict>
+				<key>comments</key>
+				<string>Локализуемые ключевые слова</string>
+				<key>index</key>
+				<string>двойное нажатие, щелчок, перемещение, перетягивание, быстрее, скорость, медленнее, курсор, стрелка, указатель, нажатие, скорость перемещения, перетягивание, медленно, замедление</string>
+				<key>title</key>
+				<string>Скорость перемещения</string>
+			</dict>
+			<dict>
+				<key>comments</key>
+				<string>Локализуемые ключевые слова</string>
+				<key>index</key>
+				<string>справа, право, нажатие правой кнопкой, нажатие правой кнопки мыши, щелчок правой кнопкой, щелчок правой кнопкой мыши, два, три, четыре, пальцы, коснуться, прокрутка, перетащить, перетянуть, нажатие, касание, масштабировать, изменение масштаба, повернуть, сведение, разведение, перелистнуть, прикосновение, прокручивание, перетаскивание, перетягивание, касание, масштабирование, вращение, смахивание, разведение, настройки Mission Control, полный экран, в полный экран, на полный экран, полноэкранный, Рабочий стол, рабочий стол</string>
+				<key>title</key>
+				<string>Жесты трекпада</string>
+			</dict>
+			<dict>
+				<key>comments</key>
+				<string>Локализуемые ключевые слова</string>
+				<key>index</key>
+				<string></string>
+				<key>title</key>
+				<string>Изменение масштаба на трекпаде</string>
+			</dict>
+			<dict>
+				<key>index</key>
+				<string>сильное нажатие, тактильный, отклик, детекторы данных, найти, словарь, поиск в словаре</string>
+				<key>title</key>
+				<string>Сильное нажатие</string>
+			</dict>
+		</array>
+		<key>portableOnly</key>
+		<true/>
+	</dict>
+</dict>
+</plist>

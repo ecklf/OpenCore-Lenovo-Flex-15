@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>trackpadTab</key>
+	<dict>
+		<key>localizableStrings</key>
+		<array>
+			<dict>
+				<key>comments</key>
+				<string>ローカライズ可能な索引の用語</string>
+				<key>index</key>
+				<string>double-click ダブルクリック, click クリック, track トラック軌跡, drag ドラッグ, faster 速く 速い より速く より速い, speed スピード 速度 速さ, slow スロー 遅く 遅い ゆっくり, cursor カーソル, arrow アロー 矢印, pointer ポインタ, clicking クリッキング クリックする, tracking トラッキング トラックする, dragging ドラッギング ドラッグする, slower 遅く 遅い より遅く より遅い, slowing スローイング スローダウン</string>
+				<key>title</key>
+				<string>トラックパッドの速さ</string>
+			</dict>
+			<dict>
+				<key>comments</key>
+				<string>ローカライズ可能な索引の用語</string>
+				<key>index</key>
+				<string>right 右 ライト, right-click 右クリック ライトクリック 副クリック, two 2 トゥー 二 に, three 3 スリー 三 さん, four 4 フォー 四 よん, fingers フィンガー 指, touch タッチ, scroll スクロール, drag ドラッグ, tap タップ, pinch ピンチ, zoom ズーム 拡大／縮小, rotate ロテート 回転, spread 広げる スプレッド 拡大, swipe スワイプ, touching タッチング, scrolling スクローリング, dragging ドラッギング, tapping タッピング, pinching ピンチング, zooming ズーミング, rotating ロテーティング, swiping スワイピング, spreading スプレッディング, full-screen フルスクリーン フル画面 全画面 全スクリーン, fullscreen, full screen, Desktop デスクトップ</string>
+				<key>title</key>
+				<string>トラックパッドジェスチャ</string>
+			</dict>
+			<dict>
+				<key>comments</key>
+				<string>ローカライズ可能な索引の用語</string>
+				<key>index</key>
+				<string></string>
+				<key>title</key>
+				<string>トラックパッドで拡大／縮小</string>
+			</dict>
+			<dict>
+				<key>index</key>
+				<string>deep press ディーププレス 深い押下, haptic ハプティック 振動 触覚, feedback フィードバック, data detectors データ検出 データディテクタ, look up 調べる 検索, lookup ルックアップ</string>
+				<key>title</key>
+				<string>強めのクリック</string>
+			</dict>
+		</array>
+		<key>portableOnly</key>
+		<true/>
+	</dict>
+</dict>
+</plist>

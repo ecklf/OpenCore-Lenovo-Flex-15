@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>trackpadTab</key>
+	<dict>
+		<key>localizableStrings</key>
+		<array>
+			<dict>
+				<key>comments</key>
+				<string>Registerindgange, der kan oversættes</string>
+				<key>index</key>
+				<string>dobbeltklikke, klikke, bevægelse, trække, hurtigere, hastighed, langsom, markør, pil, pilmarkør, klik, bevæge, træk, langsommere, blive langsommere</string>
+				<key>title</key>
+				<string>Pegefeltets bevægelser</string>
+			</dict>
+			<dict>
+				<key>comments</key>
+				<string>Registerindgange, der kan oversættes</string>
+				<key>index</key>
+				<string>højre, højreklik, to, tre, fire, fingre, trykke, rulle, trække, trykke, knibe, zoome, rotere, sprede, skubbe, tryk, rul, træk, slå let, knib, zoom, rotation, skub, spred, fuld skærm, fuldskærm, fuld-skærm, Skrivebord</string>
+				<key>title</key>
+				<string>Betjening af pegefeltet</string>
+			</dict>
+			<dict>
+				<key>comments</key>
+				<string>Registerindgange, der kan oversættes</string>
+				<key>index</key>
+				<string></string>
+				<key>title</key>
+				<string>Zoom med pegefeltet</string>
+			</dict>
+			<dict>
+				<key>index</key>
+				<string>dybt tryk, haptisk, feedback, datasøgning, slå op, opslag</string>
+				<key>title</key>
+				<string>Fast klik</string>
+			</dict>
+		</array>
+		<key>portableOnly</key>
+		<true/>
+	</dict>
+</dict>
+</plist>

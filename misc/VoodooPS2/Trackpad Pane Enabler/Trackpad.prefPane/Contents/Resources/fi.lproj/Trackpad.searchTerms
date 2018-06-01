@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>trackpadTab</key>
+	<dict>
+		<key>localizableStrings</key>
+		<array>
+			<dict>
+				<key>comments</key>
+				<string>Lokalisoitavat hakusanat</string>
+				<key>index</key>
+				<string>kaksoisklikkaa, kaksoisklikkaus, klikkaa, klikkaus, klikata, napsauta, napsautus, seuraa, vedä, nopeammin, nopeus, hidas, kohdistin, nuoli, osoitin, napsauttaminen, seuranta, vetäminen, hitaammin, hidastua</string>
+				<key>title</key>
+				<string>Ohjauslevyn nopeus</string>
+			</dict>
+			<dict>
+				<key>comments</key>
+				<string>Lokalisoitavat hakusanat</string>
+				<key>index</key>
+				<string>oikea, oikea-klikkaus, kaksi, kahden, kolme, neljä, sormi, sormet, kosketa, rullaa, vieritä, vedä, napauta, nipistä, zoomaa, pyöritä, levitä, pyyhkäise, kosketus, vieritys, veto, napautus, nipistys, zoomaus, pyöritys, pyyhkäisy, levitys, koko näyttö, koko näytön, työpöytä, Desktop</string>
+				<key>title</key>
+				<string>Ohjauslevyn eleet</string>
+			</dict>
+			<dict>
+				<key>comments</key>
+				<string>Lokalisoitavat hakusanat</string>
+				<key>index</key>
+				<string></string>
+				<key>title</key>
+				<string>Ohjauslevyn zoomaus</string>
+			</dict>
+			<dict>
+				<key>index</key>
+				<string>voimakas painallus, haptinen, palaute, tuntopalaute, datatunnistimet, etsi sanakirjasta, sanakirjahaku</string>
+				<key>title</key>
+				<string>Klikkaa voimakkaasti</string>
+			</dict>
+		</array>
+		<key>portableOnly</key>
+		<true/>
+	</dict>
+</dict>
+</plist>

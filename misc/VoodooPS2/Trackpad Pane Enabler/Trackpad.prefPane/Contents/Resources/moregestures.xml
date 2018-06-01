@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>class</key>
+		<string>MTTrackpadNavigationGesture</string>
+		<key>gesturename</key>
+		<string>GNAME_NAVIGATION</string>
+		<key>choices</key>
+		<array>
+			<string>GNAME_NAVIGATION_EDGE</string>
+			<string>GNAME_NAVIGATION_SWIPE</string>
+			<string>GNAME_NAVIGATION_BOTH</string>
+		</array>
+	</dict>
+	<dict>
+		<key>class</key>
+		<string>MTTrackpadDashboardGesture</string>
+		<key>gesturename</key>
+		<string>GNAME_DASHBOARD</string>
+		<key>choices</key>
+		<array>
+			<string>GNAME_DASHBOARD_H3FINGER</string>
+			<string>GNAME_DASHBOARD_H4FINGER</string>
+		</array>
+	</dict>
+	<dict>
+		<key>class</key>
+		<string>MTTrackpadNotificationCenterGesture</string>
+		<key>gesturename</key>
+		<string>GNAME_NOTIFICATION_CENTER</string>
+		<key>gesturelabel</key>
+		<string>GNAME_NOTIFICATION_CENTER_LABEL</string>
+		<key>moviechaptername</key>
+		<string>Shot 17</string>
+	</dict>
+	<dict>
+		<key>class</key>
+		<string>MTTrackpadMissionControlGesture</string>
+		<key>gesturename</key>
+		<string>GNAME_MISSIONCONTROL</string>
+		<key>choices</key>
+		<array>
+			<string>GNAME_MISSIONCONTROL_V3FINGER</string>
+			<string>GNAME_MISSIONCONTROL_V4FINGER</string>
+		</array>
+	</dict>
+	<dict>
+		<key>class</key>
+		<string>MTTrackpadAppExposeGesture</string>
+		<key>gesturename</key>
+		<string>GNAME_APPEXPOSE</string>
+		<key>choices</key>
+		<array>
+			<string>GNAME_APPEXPOSE_V3FINGER</string>
+			<string>GNAME_APPEXPOSE_V4FINGER</string>
+		</array>
+	</dict>
+	<dict>
+		<key>class</key>
+		<string>MTTrackpadLaunchpadGesture</string>
+		<key>gesturename</key>
+		<string>GNAME_LAUNCHPAD</string>
+		<key>gesturelabel</key>
+		<string>GNAME_LAUNCHPAD_LABEL</string>
+		<key>moviechaptername</key>
+		<string>Shot 15</string>
+	</dict>
+	<dict>
+		<key>class</key>
+		<string>MTTrackpadShowDesktopGesture</string>
+		<key>gesturename</key>
+		<string>GNAME_SHOWDESKTOP</string>
+		<key>gesturelabel</key>
+		<string>GNAME_SHOWDESKTOP_LABEL</string>
+		<key>moviechaptername</key>
+		<string>Shot 16</string>
+	</dict>
+</array>
+</plist>

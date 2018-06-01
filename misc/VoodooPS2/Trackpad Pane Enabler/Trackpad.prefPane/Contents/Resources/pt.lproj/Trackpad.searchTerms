@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>trackpadTab</key>
+	<dict>
+		<key>localizableStrings</key>
+		<array>
+			<dict>
+				<key>comments</key>
+				<string>Palavras localizáveis do índice</string>
+				<key>index</key>
+				<string>duplo-clique, clicar duas vezes, clique duas vezes, clicar, faixa, arrastar, mais rápido, velocidade, lenta, cursor, seta, ponteiro, clicando, usando o trackpad, arrastando, mais lenta, diminuindo a velocidade, double-click, click, track, drag, faster, speed, slow, cursor, arrow, pointer, clicking, tracking, dragging, slower, slowing</string>
+				<key>title</key>
+				<string>Velocidade do trackpad</string>
+			</dict>
+			<dict>
+				<key>comments</key>
+				<string>Palavras localizáveis do índice</string>
+				<key>index</key>
+				<string>direita, direito, clique com o botão direito, dois, três, quatro, dedos, tocar, rolar, arrastar, toque, beliscar, juntar os dedos, separar os dedos, juntar ou separar os dedos, zoom, ampliar/reduzir, ampliar, reduzir, rotar, girar, espalhar, passar o dedo, passar os dedos, tocando, rolando, arrastando, dando um toque, juntando os dedos, separando os dedos, juntando ou separando os dedos, aplicando zoom, ampliando/reduzindo, ampliando ou reduzindo, rotando, girando, passando o dedo, passando os dedos, espalhando, tela cheia, tela inteira, tela toda, Mesa, Área de Trabalho, Desktop, right, right-click, two, three, four, fingers, touch, scroll, drag, tap, pinch, zoom, rotate, spread, swipe, touching, scrolling, dragging, tapping, pinching, zooming, rotating, swiping, spreading, full-screen, fullscreen, full screen, Desktop</string>
+				<key>title</key>
+				<string>Gestos do trackpad</string>
+			</dict>
+			<dict>
+				<key>comments</key>
+				<string>Palavras localizáveis do índice</string>
+				<key>index</key>
+				<string></string>
+				<key>title</key>
+				<string>Ampliar/reduzir com o trackpad</string>
+			</dict>
+			<dict>
+				<key>index</key>
+				<string>pressionar fundo, háptico, retorno, detectores de dados, busca, buscar</string>
+				<key>title</key>
+				<string>Clique forte</string>
+			</dict>
+		</array>
+		<key>portableOnly</key>
+		<true/>
+	</dict>
+</dict>
+</plist>

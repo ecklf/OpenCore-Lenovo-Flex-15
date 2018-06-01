@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>trackpadTab</key>
+	<dict>
+		<key>localizableStrings</key>
+		<array>
+			<dict>
+				<key>comments</key>
+				<string>Yerelleştirilebilir dizin sözcükleri</string>
+				<key>index</key>
+				<string>çift tıkla, tıkla, izle, sürükle, hızlı, hız, yavaş, imleç, ok, pointer, tıklama, izleme, sürükleme, daha yavaş, yavaşlatma, double-click, click, track, drag, faster, speed, slow, cursor, arrow, pointer, clicking, tracking, dragging, slower, slowing</string>
+				<key>title</key>
+				<string>İzleme dörtgeni hızı</string>
+			</dict>
+			<dict>
+				<key>comments</key>
+				<string>Yerelleştirilebilir dizin sözcükleri</string>
+				<key>index</key>
+				<string>sağ, sağ tıklama, iki, üç, dört, parmak, dokun, sar, sürükle, vur, kıstırıp aç, büyüt, döndür, aç, kaydır, dokunma, sarma, sürükleme, vurma, kıstırıp açma, büyütme, döndürme, kaydırma, açma, tam ekran, tamekran, tam-ekran, Masaüstü, right, right-click, two, three, four, fingers, touch, scroll, drag, tap, pinch, zoom, rotate, spread, swipe, touching, scrolling, dragging, tapping, pinching, zooming, rotating, swiping, spreading, full-screen, fullscreen, full screen, Desktop</string>
+				<key>title</key>
+				<string>İzleme dörtgeni hareketleri</string>
+			</dict>
+			<dict>
+				<key>comments</key>
+				<string>Yerelleştirilebilir dizin sözcükleri</string>
+				<key>index</key>
+				<string></string>
+				<key>title</key>
+				<string>İzleme dörtgeni ile büyütme</string>
+			</dict>
+			<dict>
+				<key>index</key>
+				<string>aşırı basma, dokunsal, geri bildirim, veri algılayıcıları, sözlükte ara, haptik, deep press, haptic, feedback, data detectors, look up, lookup</string>
+				<key>title</key>
+				<string>Kuvvetli tıklama</string>
+			</dict>
+		</array>
+		<key>portableOnly</key>
+		<true/>
+	</dict>
+</dict>
+</plist>

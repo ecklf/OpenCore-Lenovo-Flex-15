@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>trackpadTab</key>
+	<dict>
+		<key>localizableStrings</key>
+		<array>
+			<dict>
+				<key>comments</key>
+				<string>Paraules d’índex traduïbles</string>
+				<key>index</key>
+				<string>doble clic, fer doble clic, clic, fer clic, clicar, arrossegar, moure, més ràpid, velocitat, lent, cursor, fletxa, punter, moviment, seguiment, més lent, ralentir</string>
+				<key>title</key>
+				<string>Velocitat del trackpad</string>
+			</dict>
+			<dict>
+				<key>comments</key>
+				<string>Paraules d’índex traduïbles</string>
+				<key>index</key>
+				<string>dreta, clic amb el botó dret del ratolí, dos, tres, quatre, dits, tocar, desplaçar, arrossegar, prémer, ajuntar, zoom, apropar, allunyar, augmentar, reduir, girar, passar, toc, desplaçament, arrossegament, pulsació, separació, unió, gir, rotació, allunyament, expansió, pantalla completa, tota pantalla, Escriptori</string>
+				<key>title</key>
+				<string>Gestos del trackpad</string>
+			</dict>
+			<dict>
+				<key>comments</key>
+				<string>Paraules d’índex traduïbles</string>
+				<key>index</key>
+				<string></string>
+				<key>title</key>
+				<string>Fer zoom amb el trackpad</string>
+			</dict>
+			<dict>
+				<key>index</key>
+				<string>pressió forta, vibració, informació, detectors de dades, buscar, cerca</string>
+				<key>title</key>
+				<string>Clic fort</string>
+			</dict>
+		</array>
+		<key>portableOnly</key>
+		<true/>
+	</dict>
+</dict>
+</plist>

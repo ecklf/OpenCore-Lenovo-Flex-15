@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>trackpadTab</key>
+	<dict>
+		<key>localizableStrings</key>
+		<array>
+			<dict>
+				<key>comments</key>
+				<string>Lokaliserbara indexord</string>
+				<key>index</key>
+				<string>dubbelklicka, klicka, följa, dra, drag, snabbare, hastighet, långsam, markör, pil, pekare, klickande, följande, dragande, långsammare, saktare</string>
+				<key>title</key>
+				<string>Styrplattehastighet</string>
+			</dict>
+			<dict>
+				<key>comments</key>
+				<string>Lokaliserbara indexord</string>
+				<key>index</key>
+				<string>höger, högerklicka, två, tre, fyra, fingrar, rör, bläddra, dra, trycka, knacka, tryck, nyp, zoom, rotera, sprid, svep, vidröra, bläddring, dragning, tryckning, knackning, nypning, zoomning, rotering, svepning, spridning, helskärm, fullskärm, skrivbord, skrivbordet</string>
+				<key>title</key>
+				<string>Styrplattegester</string>
+			</dict>
+			<dict>
+				<key>comments</key>
+				<string>Lokaliserbara indexord</string>
+				<key>index</key>
+				<string></string>
+				<key>title</key>
+				<string>Styrplattezoomning</string>
+			</dict>
+			<dict>
+				<key>index</key>
+				<string>djupt tryck, haptisk, feedback, dataavkännare, slå upp</string>
+				<key>title</key>
+				<string>Klicka hårt</string>
+			</dict>
+		</array>
+		<key>portableOnly</key>
+		<true/>
+	</dict>
+</dict>
+</plist>

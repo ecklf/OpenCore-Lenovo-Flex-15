@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>trackpadTab</key>
+	<dict>
+		<key>localizableStrings</key>
+		<array>
+			<dict>
+				<key>comments</key>
+				<string>Lokalizowane słowa kluczowe</string>
+				<key>index</key>
+				<string>dwukrotne kliknięcie, kliknięcie, śledź, przeciągaj, szybciej, szybkość, wolno, kursor, strzałka, wskaźnik, klikanie, śledzenie, przeciąganie, wolniej, zwalnianie</string>
+				<key>title</key>
+				<string>Szybkość gładzika</string>
+			</dict>
+			<dict>
+				<key>comments</key>
+				<string>Lokalizowane słowa kluczowe</string>
+				<key>index</key>
+				<string>prawy, kliknięcie prawym przyciskiem, dwa, trzy, cztery, palce, dotykać, przewijać, przeciągać, stukać, zsuwać, rozsuwać, zoom, obracać, rozciągać, przesuwać, dotykanie, przewijanie, przeciąganie, stukanie, zsuwanie, rozsuwanie, obracanie, przesuwanie, rozciąganie, pełny ekran, Biurko</string>
+				<key>title</key>
+				<string>Gesty gładzika</string>
+			</dict>
+			<dict>
+				<key>comments</key>
+				<string>Lokalizowane słowa kluczowe</string>
+				<key>index</key>
+				<string></string>
+				<key>title</key>
+				<string>Powiększanie za pomocą gładzika</string>
+			</dict>
+			<dict>
+				<key>index</key>
+				<string>głębokie naciśnięcie, haptyczne, odpowiedź, detektory danych, definicja, sprawdzanie</string>
+				<key>title</key>
+				<string>Kliknięcie mocne</string>
+			</dict>
+		</array>
+		<key>portableOnly</key>
+		<true/>
+	</dict>
+</dict>
+</plist>

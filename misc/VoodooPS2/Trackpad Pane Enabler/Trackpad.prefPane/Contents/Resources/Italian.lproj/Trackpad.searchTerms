@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>trackpadTab</key>
+	<dict>
+		<key>localizableStrings</key>
+		<array>
+			<dict>
+				<key>comments</key>
+				<string>Termini dell'indice localizzabili</string>
+				<key>index</key>
+				<string>doppio clic, clic, rileva, trascina, più veloce, velocità, lento, cursore, freccia, puntatore, fare clic, rilevare, trascinare, più lento, rallentare</string>
+				<key>title</key>
+				<string>Velocità trackpad</string>
+			</dict>
+			<dict>
+				<key>comments</key>
+				<string>Termini dell'indice localizzabili</string>
+				<key>index</key>
+				<string>destro, clic con il tasto destro, due, tre, quattro, dita, toccare, scorri, trascina, tocca, chiudi, zoom, ruota, separa, scorri, toccare, scorrere, trascinare, toccare, chiudere, zoom, ruotare, scorrere, separare, tutto schermo, Scrivania</string>
+				<key>title</key>
+				<string>Azioni trackpad</string>
+			</dict>
+			<dict>
+				<key>comments</key>
+				<string>Termini dell'indice localizzabili</string>
+				<key>index</key>
+				<string></string>
+				<key>title</key>
+				<string>Zoom trackpad</string>
+			</dict>
+			<dict>
+				<key>index</key>
+				<string>pressione profonda, aptico, feedback, rilevatori di dati, definisci, definizione</string>
+				<key>title</key>
+				<string>Clic deciso</string>
+			</dict>
+		</array>
+		<key>portableOnly</key>
+		<true/>
+	</dict>
+</dict>
+</plist>

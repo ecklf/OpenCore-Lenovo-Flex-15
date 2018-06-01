@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>trackpadTab</key>
+	<dict>
+		<key>localizableStrings</key>
+		<array>
+			<dict>
+				<key>comments</key>
+				<string>Cuvinte de index localizabile</string>
+				<key>index</key>
+				<string>dublu clic, clic, urmări, trage, mai rapid, viteza, încet, cursor, săgeată, pointer, clicare, urmărire, tragere, mai încet, încetinire</string>
+				<key>title</key>
+				<string>Viteză trackpad</string>
+			</dict>
+			<dict>
+				<key>comments</key>
+				<string>Cuvinte de index localizabile</string>
+				<key>index</key>
+				<string>dreapta, clic dreapta, două, trei, patru, degete, atinge, derulează, trage, atinge, ciupește, zoom, rotește, depărtează, glisează, atingere, derulare, tragere, apăsare, ciupire, zoom, rotire, glisare, depărtare, pe tot ecranul, desktop</string>
+				<key>title</key>
+				<string>Gesturi trackpad</string>
+			</dict>
+			<dict>
+				<key>comments</key>
+				<string>Cuvinte de index localizabile</string>
+				<key>index</key>
+				<string></string>
+				<key>title</key>
+				<string>Zoom din trackpad</string>
+			</dict>
+			<dict>
+				<key>index</key>
+				<string>apăsare profundă, haptic, feedback, detectoare date, căutare, definiție, referințe</string>
+				<key>title</key>
+				<string>Clic prelungit</string>
+			</dict>
+		</array>
+		<key>portableOnly</key>
+		<true/>
+	</dict>
+</dict>
+</plist>

@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>trackpadTab</key>
+	<dict>
+		<key>localizableStrings</key>
+		<array>
+			<dict>
+				<key>comments</key>
+				<string>로컬라이즈가 가능한 인덱스 단어</string>
+				<key>index</key>
+				<string>이중 클릭, 클릭, 트랙, 드래그, 빠르게, 속도, 스피드, 느리게, 커서, 화살표, 포인터, 클릭하기, 이동하기, 드래그하기, 더 느리게, 느림</string>
+				<key>title</key>
+				<string>트랙패드 이동 속도</string>
+			</dict>
+			<dict>
+				<key>comments</key>
+				<string>로컬라이즈가 가능한 인덱스 단어</string>
+				<key>index</key>
+				<string>오른쪽, 오른쪽 클릭, 두 개, 둘, 두, 이, 세 개, 세, 셋, 삼, 네 개, 네, 넷, 사, 손가락, 터치, 터치하기, 스크롤, 스크롤하기, 드래그, 드래그하기, 탭, 탭하기, 오므리기, 모으기, 꼬집기, 핀치, 줌, 확대, 축소, 확대/축소, 확대하기, 축소하기, 확대/축소하기, 회전, 회전시키기, 돌리기, 펼치기, 펴기, 쓸어넘기기, 쓸어 넘기기, 쓸어내리기, 쓸어 내리기, 쓸어올리기, 쓸어 올리기, 쓸어, 넘기기, 내리기, 올리기, 스와이프하기, 전체 화면, 전체화면, 풀스크린, 풀 스크린, 데스크탑, two, three, four, fingers, touch, scroll, drag, tap, pinch, zoom, rotate, spread, swipe, touching, scrolling, dragging, tapping, pinching, zooming, rotating, swiping, spreading, full-screen, fullscreen, full screen, Desktop</string>
+				<key>title</key>
+				<string>트랙패드 동작</string>
+			</dict>
+			<dict>
+				<key>comments</key>
+				<string>로컬라이즈가 가능한 인덱스 단어</string>
+				<key>index</key>
+				<string></string>
+				<key>title</key>
+				<string>트랙패드 확대/축소하기</string>
+			</dict>
+			<dict>
+				<key>index</key>
+				<string>꾹 누르기, 햅틱, 피드백, 데이터 탐색기, 찾아보기, 검색</string>
+				<key>title</key>
+				<string>세게 클릭</string>
+			</dict>
+		</array>
+		<key>portableOnly</key>
+		<true/>
+	</dict>
+</dict>
+</plist>

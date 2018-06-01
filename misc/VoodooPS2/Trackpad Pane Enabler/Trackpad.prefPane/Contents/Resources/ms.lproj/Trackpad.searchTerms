@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>trackpadTab</key>
+	<dict>
+		<key>localizableStrings</key>
+		<array>
+			<dict>
+				<key>comments</key>
+				<string>Perkataan indeks yang boleh disetempatkan</string>
+				<key>index</key>
+				<string>dwiklik, klik, jejak, seret, lebih cepat, kelajuan, perlahan, kursor, anak panah, penuding, mengelik, menjejak, mengheret, lebih perlahan, memperlahankan</string>
+				<key>title</key>
+				<string>Kelajuan Trackpad</string>
+			</dict>
+			<dict>
+				<key>comments</key>
+				<string>Perkataan indeks yang boleh disetempatkan</string>
+				<key>index</key>
+				<string>kanan, klik kanan, dua, tiga, empat, jari, sentuh, skrol, seret, ketuk, cubit, zum, putar, tebaran, leret, menyentuh, pengskrolan, mengheret, mengetik, mencubit, menzum, berputar, meleret, menyebarkan, skrin-penuh, skrin penuh, skrin penuh, Desktop</string>
+				<key>title</key>
+				<string>Gerakan isyarat Trackpad</string>
+			</dict>
+			<dict>
+				<key>comments</key>
+				<string>Perkataan indeks yang boleh disetempatkan</string>
+				<key>index</key>
+				<string></string>
+				<key>title</key>
+				<string>Trackpad sedang menzum</string>
+			</dict>
+			<dict>
+				<key>index</key>
+				<string>tekan dalam, haptik, maklum balas, pengesan data, carian, carian</string>
+				<key>title</key>
+				<string>Klik paksa</string>
+			</dict>
+		</array>
+		<key>portableOnly</key>
+		<true/>
+	</dict>
+</dict>
+</plist>

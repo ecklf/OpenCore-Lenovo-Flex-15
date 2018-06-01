@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>class</key>
+		<string>MTTrackpadScrollGesture</string>
+		<key>gesturename</key>
+		<string>GNAME_SCROLL</string>
+		<key>gesturelabel</key>
+		<string>GNAME_SCROLL_LABEL</string>
+	</dict>
+
+	<dict>
+		<key>class</key>
+		<string>MTTrackpadPinchGesture</string>
+		<key>gesturename</key>
+		<string>GNAME_PINCH</string>
+		<key>gesturelabel</key>
+		<string>GNAME_PINCH_LABEL</string>
+		<key>moviechaptername</key>
+		<string>Shot 6</string>
+	</dict>
+	<dict>
+		<key>class</key>
+		<string>MTTrackpadSmartZoomGesture</string>
+		<key>gesturename</key>
+		<string>GNAME_SMARTZOOM</string>
+		<key>gesturelabel</key>
+		<string>GNAME_SMARTZOOM_LABEL</string>
+		<key>moviechaptername</key>
+		<string>Shot 7</string>
+	</dict>
+	<dict>
+		<key>class</key>
+		<string>MTTrackpadRotateGesture</string>
+		<key>gesturename</key>
+		<string>GNAME_ROTATE</string>
+		<key>gesturelabel</key>
+		<string>GNAME_ROTATE_LABEL</string>
+		<key>moviechaptername</key>
+		<string>Shot 8</string>
+	</dict>
+</array>
+</plist>

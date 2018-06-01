@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>class</key>
+		<string>MTTrackpadDeepClickGesture</string>
+		<key>gesturename</key>
+		<string>GNAME_DEEP_CLICK</string>
+		<key>gesturelabel</key>
+		<string>GNAME_DEEP_CLICK_LABEL</string>
+		<key>choices</key>
+		<array>
+			<string>GNAME_LOOKUP_FORCECLICK</string>
+			<string>GNAME_LOOKUP_T3FAP</string>
+		</array>
+	</dict>
+	<dict>
+		<key>class</key>
+		<string>MTTrackpadSecondaryClickGesture</string>
+		<key>gesturename</key>
+		<string>GNAME_SECONDARYCLICK</string>
+		<key>gesturename_tap</key>
+		<string>SECONDARYCLICKGESTURE_TAP</string>
+		<key>gesturelabel</key>
+		<string>GNAME_SECONDARYCLICK_2F</string>
+		<key>choices</key>
+		<array>
+			<string>GNAME_SECONDARYCLICK_2F</string>
+			<string>GNAME_SECONDARYCLICK_BOTTOM_RIGHT_CORNER</string>
+			<string>GNAME_SECONDARYCLICK_BOTTOM_LEFT_CORNER</string>
+		</array>
+	</dict>
+	<dict>
+		<key>class</key>
+		<string>MTTrackpadClickGesture</string>
+		<key>gesturename</key>
+		<string>GNAME_CLICK</string>
+		<key>gesturelabel</key>
+		<string>GNAME_CLICK_LABEL</string>
+	</dict>
+</array>
+</plist>

@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>trackpadTab</key>
+	<dict>
+		<key>localizableStrings</key>
+		<array>
+			<dict>
+				<key>comments</key>
+				<string>Các từ chỉ mục có thể bản địa hóa</string>
+				<key>index</key>
+				<string>bấm hai lần, bấm, theo dõi, kéo, nhanh hơn, tốc độ, chậm, con trỏ, mũi tên, chậm hơn</string>
+				<key>title</key>
+				<string>Tốc độ theo dõi</string>
+			</dict>
+			<dict>
+				<key>comments</key>
+				<string>Các từ chỉ mục có thể bản địa hóa</string>
+				<key>index</key>
+				<string>phải, bấm chuột phải, hai, ba, bốn, ngón tay, chạm, cuộn, kéo, bấm, chụm, thu phóng, xoay, mở rộng, vuốt, toàn màn hình, màn hình đầy đủ, Màn hình nền</string>
+				<key>title</key>
+				<string>Cử chỉ bàn di chuột</string>
+			</dict>
+			<dict>
+				<key>comments</key>
+				<string>Các từ chỉ mục có thể bản địa hóa</string>
+				<key>index</key>
+				<string></string>
+				<key>title</key>
+				<string>Thu phóng trên bàn di chuột</string>
+			</dict>
+			<dict>
+				<key>index</key>
+				<string>nhấn sâu, cảm ứng, phản hồi, bộ dò tìm dữ liệu, tra cứu, dò tìm</string>
+				<key>title</key>
+				<string>Bấm mạnh</string>
+			</dict>
+		</array>
+		<key>portableOnly</key>
+		<true/>
+	</dict>
+</dict>
+</plist>

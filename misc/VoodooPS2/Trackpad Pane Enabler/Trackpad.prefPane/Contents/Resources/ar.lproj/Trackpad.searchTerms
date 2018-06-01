@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>trackpadTab</key>
+	<dict>
+		<key>localizableStrings</key>
+		<array>
+			<dict>
+				<key>comments</key>
+				<string>كلمات الفهرس القابلة للترجمة، كلمات فهرس قابلة للترجمة، كلمة الفهرس القابلة للترجمة، كلمة فهرس قابلة للترجمة</string>
+				<key>index</key>
+				<string>النقر نقرًا مزدوجًا، نقر نقرًا مزدوجًا، ينقر، يتعقب، يسحب، أسرع، الأسرع، سرعة، السرعة، بطيء، البطيء، مؤشر، المؤشر، سهم، السهم، نقر، النقر، تعقب، التعقب، سحب، السحب، أبطأ، الأبطأ، إبطاء، الإبطاء، double-click، click، track، drag، faster، speed، slow، cursor، arrow، pointer، clicking، tracking، dragging، slower، slowing</string>
+				<key>title</key>
+				<string>سرعة لوحة التعقب</string>
+			</dict>
+			<dict>
+				<key>comments</key>
+				<string>كلمات الفهرس القابلة للترجمة، كلمات فهرس قابلة للترجمة، كلمة الفهرس القابلة للترجمة، كلمة فهرس قابلة للترجمة</string>
+				<key>index</key>
+				<string>يمين، أيمن، يمنى، اليمين، الأيمن، اليمنى، انقر بزر الماوس الأيمن، النقر بزر الماوس الأيمن، نقر بزر الماوس الأيمن، ينقر بزر الماوس الأيمن، اثنان، الاثنان، ثلاثة، ثلاث، الثلاثة، الثلاث، أربعة، الأربعة، أربع، الأربع، أصابع، الأصابع، يلمس، يمرر، يسحب، يضغط برفق، يضغط بقوة، تكبير/تصغير، التكبير/التصغير، تدوير، التدوير، يحرك، لمس، اللمس، تمرير، التمرير، سحب، السحب، ضغط برفق، الضغط برفق، ضغط بقوة، الضغط بقوة، تكبير/تصغير، التكبير/التصغير، تدوير، تحريك، التدوير، التحريك، ، مد، المد، بسط، البسط، ملء الشاشة، شاشة كاملة، الشاشة بالكامل، سطح المكتب، كمبيوتر مكتبي، الكمبيوتر المكتبي، كمبيوتر سطح المكتب، right, right-click, two, three, four, fingers, touch, scroll, drag, tap, pinch, zoom, rotate, spread, swipe, touching, scrolling, dragging, tapping, pinching, zooming, rotating, swiping, spreading, full-screen, fullscreen, full screen, Desktop</string>
+				<key>title</key>
+				<string>إيماءات لوحة التعقب</string>
+			</dict>
+			<dict>
+				<key>comments</key>
+				<string>كلمات الفهرس القابلة للترجمة، كلمات فهرس قابلة للترجمة، كلمة الفهرس القابلة للترجمة، كلمة فهرس قابلة للترجمة</string>
+				<key>index</key>
+				<string></string>
+				<key>title</key>
+				<string>تكبير/تصغير لوحة التعقب</string>
+			</dict>
+			<dict>
+				<key>index</key>
+				<string>ضغط عميق، الضغط العميق، لمسي، اللمسي، حسي لمسي، الحسي اللمسي، استجابة، الاستجابة، مكتشفات البيانات، مكتشفات بيانات، بحث، البحث، يبحث</string>
+				<key>title</key>
+				<string>النقر بقوة</string>
+			</dict>
+		</array>
+		<key>portableOnly</key>
+		<true/>
+	</dict>
+</dict>
+</plist>

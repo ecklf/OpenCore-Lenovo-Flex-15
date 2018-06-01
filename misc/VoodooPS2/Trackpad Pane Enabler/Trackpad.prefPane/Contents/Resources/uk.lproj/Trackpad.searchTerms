@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>trackpadTab</key>
+	<dict>
+		<key>localizableStrings</key>
+		<array>
+			<dict>
+				<key>comments</key>
+				<string>Локалізовувані індексні слова</string>
+				<key>index</key>
+				<string>подвійне натискання, подвійне клацання, натискання, клацання, клік, клікання, стеження, стежити, відстежувати,тягнути, перетягти, перетягати, швидше, швидкість, повільно, курсор, вказівник, стрілка, клікнути, відстеження, перетягування, повільніше, сповільнення, поволі</string>
+				<key>title</key>
+				<string>Швидкість трекпеда</string>
+			</dict>
+			<dict>
+				<key>comments</key>
+				<string>Локалізовувані індексні слова</string>
+				<key>index</key>
+				<string>правий, правий клік, два, три, чотири, пальці, торкнутися, прокрутити, перетягнути, торкнутися, звести, масштабувати, повернути, розвести, провести, торкання, прокручування, перетягування, торкання, зведення, масштабування, обертання, проведення, розведення, на весь екран, повноекранний, робочий стіл</string>
+				<key>title</key>
+				<string>Дії з трекпедом</string>
+			</dict>
+			<dict>
+				<key>comments</key>
+				<string>Локалізовувані індексні слова</string>
+				<key>index</key>
+				<string></string>
+				<key>title</key>
+				<string>Масштабування трекпедом</string>
+			</dict>
+			<dict>
+				<key>index</key>
+				<string>глибоке натискання, дотиковий, тактильний, зв’язок, тактильне позначення, пошук, означення, визначення</string>
+				<key>title</key>
+				<string>Примусове клацання</string>
+			</dict>
+		</array>
+		<key>portableOnly</key>
+		<true/>
+	</dict>
+</dict>
+</plist>

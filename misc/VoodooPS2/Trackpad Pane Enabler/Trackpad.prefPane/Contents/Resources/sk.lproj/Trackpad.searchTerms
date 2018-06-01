@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>trackpadTab</key>
+	<dict>
+		<key>localizableStrings</key>
+		<array>
+			<dict>
+				<key>comments</key>
+				<string>Lokalizovateľné indexové slová</string>
+				<key>index</key>
+				<string>dvojité kliknutie, kliknutie, pohyb kurzora, ťahať, rýchlejšie, rýchlosť, pomaly, kurzor, šípka, ukazovateľ, kliknutie, pohyb kurzora, ťahanie, pomalšie, spomaľuje</string>
+				<key>title</key>
+				<string>Rýchlosť trackpadu</string>
+			</dict>
+			<dict>
+				<key>comments</key>
+				<string>Lokalizovateľné indexové slová</string>
+				<key>index</key>
+				<string>doprava, pravé kliknutie, dva, tri, štyri, prsty, dotyk, rolovať, ťahať, klepnúť, zovrieť, zväčšiť, otočiť, roztiahnuť, potiahnuť, dotyk, rolovanie, ťahanie, klepnutie, zovretie, zväčšenie, otočenie, potiahnutie, roztiahnutie, na celej obrazovke, celá obrazovka, Plocha</string>
+				<key>title</key>
+				<string>Gestá trackpadu</string>
+			</dict>
+			<dict>
+				<key>comments</key>
+				<string>Lokalizovateľné indexové slová</string>
+				<key>index</key>
+				<string></string>
+				<key>title</key>
+				<string>Zväčšovanie pomocou trackpadu</string>
+			</dict>
+			<dict>
+				<key>index</key>
+				<string>zatlačenie, haptická, odozva, detektory dát, vyhľadať, hľadať</string>
+				<key>title</key>
+				<string>Zatlačenie</string>
+			</dict>
+		</array>
+		<key>portableOnly</key>
+		<true/>
+	</dict>
+</dict>
+</plist>

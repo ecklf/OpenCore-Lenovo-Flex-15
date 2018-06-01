@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>trackpadTab</key>
+	<dict>
+		<key>localizableStrings</key>
+		<array>
+			<dict>
+				<key>comments</key>
+				<string>Riječi indeksa koje se mogu lokalizirati</string>
+				<key>index</key>
+				<string>dvostruki klik, klik, povlači, povuci, brže, brzina, sporo, kursor, strelica, pokazivač, klikanje, povlačenje, povlačenje, sporije, usporavanje</string>
+				<key>title</key>
+				<string>Brzina dodirne površine</string>
+			</dict>
+			<dict>
+				<key>comments</key>
+				<string>Riječi indeksa koje se mogu lokalizirati</string>
+				<key>index</key>
+				<string>desno, desni klik, dva, tri, četiri, prsti, dodir, listanje, povlačenje, dodirivanje, zumiranje, rotiranje, širenje, potez, dodirivanje, listanje, povlačenje, dodirivanje, štipanje, zumiranje, rotiranje, potez, širenje, prikaz preko cijelog zaslona, cijeli zaslon, čitav zaslon, radna površina</string>
+				<key>title</key>
+				<string>Geste dodirne površine</string>
+			</dict>
+			<dict>
+				<key>comments</key>
+				<string>Riječi indeksa koje se mogu lokalizirati</string>
+				<key>index</key>
+				<string></string>
+				<key>title</key>
+				<string>Zumiranje korištenjem dodirne površine</string>
+			</dict>
+			<dict>
+				<key>index</key>
+				<string>duboki pritisak, vibracija, povratna vibracija, detektori podataka, traženje, pretraživanje</string>
+				<key>title</key>
+				<string>Snažno klikanje</string>
+			</dict>
+		</array>
+		<key>portableOnly</key>
+		<true/>
+	</dict>
+</dict>
+</plist>

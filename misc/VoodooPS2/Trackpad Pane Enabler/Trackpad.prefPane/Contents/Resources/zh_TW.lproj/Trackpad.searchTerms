@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>trackpadTab</key>
+	<dict>
+		<key>localizableStrings</key>
+		<array>
+			<dict>
+				<key>comments</key>
+				<string>本地化索引詞</string>
+				<key>index</key>
+				<string>連按兩下, 兩下, 點按, 按一下, 軌跡板, 拖移, 快, 較快, 速度, 慢, 較慢, 游標, 箭頭, 指標, 追蹤, 較慢, 慢速</string>
+				<key>title</key>
+				<string>觸控式軌跡板速度</string>
+			</dict>
+			<dict>
+				<key>comments</key>
+				<string>本地化索引詞</string>
+				<key>index</key>
+				<string>右, 按右鍵, 二, 三, 四, 雙指, 兩指,三指, 四指,手指, touch, 觸碰, 捲動, 拖移, 點一下, 放大縮小, 縮放, 旋轉, 分開, 向外張開, 滑過, 碰觸, 捲動, 滑動, 滑過, 全螢幕, 全屏, 整個螢幕, 桌面</string>
+				<key>title</key>
+				<string>觸控式軌跡板手勢</string>
+			</dict>
+			<dict>
+				<key>comments</key>
+				<string>本地化索引詞</string>
+				<key>index</key>
+				<string></string>
+				<key>title</key>
+				<string>觸控式軌跡板縮放</string>
+			</dict>
+			<dict>
+				<key>index</key>
+				<string>用力點按, 觸覺, 回饋, 資料偵測器, 查詢, 尋找</string>
+				<key>title</key>
+				<string>用力長按</string>
+			</dict>
+		</array>
+		<key>portableOnly</key>
+		<true/>
+	</dict>
+</dict>
+</plist>
