@@ -1,6 +1,6 @@
 # Lenovo Flex 2-15 Hackintosh
 
-What works:
+What works (currently using macOS 10.13.3):
   - Touchscreen
   - USB / Card Reader
   - Audio / Mic over Speakers and Jack
@@ -9,12 +9,13 @@ What works:
 What does not work:
   - Wifi / Bluetooth (needs replacement card)
 
-Untested:
+Untested / yet to do:
   - HDMI Audio
+  - Sleep / Wake
 
 Based on:
-    - [Laptop backlight control using AppleBacklightInjector.kext](https://www.tonymacx86.com/threads/guide-laptop-backlight-control-using-applebacklightinjector-kext.218222/).
-    - [AppleHDA for Realtek ALC283](https://www.tonymacx86.com/threads/solved-help-fixing-applehda-for-realtek-alc283.165181/page-4).
+  - [Laptop backlight control using AppleBacklightInjector.kext](https://www.tonymacx86.com/threads/guide-laptop-backlight-control-using-applebacklightinjector-kext.218222/)
+  - [AppleHDA for Realtek ALC283](https://www.tonymacx86.com/threads/solved-help-fixing-applehda-for-realtek-alc283.165181/page-4)
 
 ### Installation
 - copy kext files to S/L/E and L/E
@@ -22,8 +23,10 @@ Based on:
 - use my DSDT / SSDT or patch yourself (see below)
 - do VoodooPS2 install (see misc)
      ```
+    # Remove conflicting kexts
     sudo rm -rf /System/Library/Extensions/AppleACPIPS2Nub.kext
     sudo rm -rf /System/Library/Extensions/ApplePS2Controller.kext
+    # add the Daemon to startup
     sudo cp org.rehabman.voodoo.driver.Daemon.plist /Library/LaunchDaemons
     sudo cp VoodooPS2Daemon /usr/bin
     ```
