@@ -20,7 +20,7 @@ Based on (Big thanks to RehabMan):
   - [Intel IGPU HDMI/DP audio](https://www.tonymacx86.com/threads/guide-intel-igpu-hdmi-dp-audio-sandy-ivy-haswell-broadwell-skylake.189495/)
 
 ### Installation
-- copy kext files to S/L/E and L/E
+- copy kext files to L/E
 - copy or modify clover.plist and use the kexts in Other dir
 - use my DSDT / SSDT or patch yourself (see below)
 - do VoodooPS2 install (see misc)
