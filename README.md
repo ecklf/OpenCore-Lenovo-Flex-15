@@ -8,6 +8,7 @@ What works (currently using macOS 10.13.4):
   - Multi-touch Trackpad Gestures
   - Hotkeys for Audio and Brightness (patched)
   - Audio (Speakers, Jack and HDMI), Webcam + Microphone
+      > If it breaks reboot without kextcache and run: sudo touch /System/Library/Extensions && sudo kextcache -u /
 
 What does not work:
   - Mic over Combojack (also not supported on any other OS)
