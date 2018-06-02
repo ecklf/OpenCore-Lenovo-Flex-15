@@ -1,18 +1,19 @@
 # Lenovo Flex 2-15 Hackintosh
 
-What works (currently using macOS 10.13.3):
+What works (currently using macOS 10.13.4):
   - Ethernet
   - Touchscreen
   - USB / Card Reader
-  - Hotkeys for Audio, Brightness (patched)
+  - Battery Status (patched)
+  - Hotkeys for Audio and Brightness (patched)
   - Audio (Speakers, Jack and HDMI), Webcam + Microphone
 
 What does not work:
   - Mic over Combojack (also not supported on any other OS)
-  - Wifi / Bluetooth (needs replacement card since Intel is not supported)
+  - Wifi / Bluetooth (needs replacement card; and likely a whitelist removal; since Intel is not supported)
 
-Untested / yet to do:
-  - Sleep / Wake
+Untested:
+  - Sleep / Wake (kinda problematic with hackintosh in general)
 
 Based on (Big thanks to RehabMan):
   - [Laptop backlight control using AppleBacklightInjector.kext](https://www.tonymacx86.com/threads/guide-laptop-backlight-control-using-applebacklightinjector-kext.218222/)
@@ -32,7 +33,7 @@ Based on (Big thanks to RehabMan):
     sudo cp org.rehabman.voodoo.driver.Daemon.plist /Library/LaunchDaemons
     sudo cp VoodooPS2Daemon /usr/bin
     ```
-- run the Trackpad install script (else you will have no tap to click)
+- run the Trackpad install script in "Install Trackpad" (else you will have no tap to click)
 - setup three finger gestures in Keyboard Settings (they emulate keystrokes as workaround)
 
 ### Manually creating DSDT/SSDT files
