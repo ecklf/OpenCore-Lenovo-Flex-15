@@ -5,6 +5,7 @@ What works (currently using macOS 10.13.4):
   - Touchscreen
   - USB / Card Reader
   - Battery Status (patched)
+  - Multi-touch Trackpad Gestures
   - Hotkeys for Audio and Brightness (patched)
   - Audio (Speakers, Jack and HDMI), Webcam + Microphone
 
