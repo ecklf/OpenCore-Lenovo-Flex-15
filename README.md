@@ -1,4 +1,4 @@
-# Lenovo Flex 2-15 Hackintosh
+# Lenovo Flex 2-15 Lenovo Flex 2-15 59416277
 
 What works (currently using macOS 10.13.4):
   - Ethernet
