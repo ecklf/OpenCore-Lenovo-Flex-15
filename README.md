@@ -37,9 +37,9 @@ Then follow the following steps:
 1. Get in touch with an expert [bios-mods](www.bios-mods.com) (or contact the guy who helped me at pythonic2016@gmail.com). **Make sure you tip this person well for their work.**
 
 2. Once you have a person to help you. Open up your laptop and unplug your batteries (CMOS and the main battery that you need to remove in order to open up the laptop).
-  ![mobo](misc/images/lenovomod1.jpg)
+  ![mobo](misc/Images/lenovomod1.jpg)
 3. Locate your BIOS Chip (W25Q64BV ID:0xEF4017 Size: 8192KB). In terms of connecting the clip cable make sure PIN 1 of SPI and the Chip; there is a little mark; are connected (HQ Images on Github).
-  ![mobo2](misc/images/lenovomod2.jpg)
+  ![mobo2](misc/Images/lenovomod2.jpg)
 
 4. Use the Software (CH341A) provided by your expert and create a dump. Send it to him and he will provide you with a new flashable image.
 
