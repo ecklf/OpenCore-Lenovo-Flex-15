@@ -6,21 +6,43 @@ What works (currently using macOS 10.13.3):
   - USB / Card Reader
   - Hotkeys for Audio, Brightness (patched)
   - Audio (Speakers, Jack and HDMI), Webcam + Microphone
+  - WIFI/Bluetooth (You can replace this with with Broadcom BCM94352HMB if you flash your BIOS (tutorial provided here))
 
 What does not work:
   - Mic over Combojack (also not supported on any other OS)
-  - Wifi / Bluetooth (needs replacement card since Intel is not supported)
 
-Untested / yet to do:
+Untested:
   - Sleep / Wake
 
 Based on (Big thanks to RehabMan):
   - [Laptop backlight control using AppleBacklightInjector.kext](https://www.tonymacx86.com/threads/guide-laptop-backlight-control-using-applebacklightinjector-kext.218222/)
   - [AppleHDA for Realtek ALC283](https://www.tonymacx86.com/threads/solved-help-fixing-applehda-for-realtek-alc283.165181/page-4)
   - [Intel IGPU HDMI/DP audio](https://www.tonymacx86.com/threads/guide-intel-igpu-hdmi-dp-audio-sandy-ivy-haswell-broadwell-skylake.189495/)
+  - [Broadcom WiFi/Bluetooth [Guide]](https://www.tonymacx86.com/threads/broadcom-wifi-bluetooth-guide.242423/#post-1664577)
 
+### Flashing your BIOS / Whitelist removal
+##### Only do this with guidance of an expert or this can go bad!!!
+
+You **won't** be able to flash a new bios from a usb stick since this is write protected (even with sleep bug).
+
+Order those two parts online:
+  - [SPI Programmer](http://www.ebay.de/itm/25-SPI-Serie-24-EEPROM-CH341A-BIOS-Writer-Routing-LCD-Flash-USB-Programmierer-S7/282248666466?_trksid=p2047675.c100011.m1850&_trkparms=aid%3D222007%26algo%3DSIC.MBE%26ao%3D1%26asc%3D42849%26meid%3D01ae9da74f4f4c93a1270e4bf7c08b36%26pid%3D100011%26rk%3D1%26rkt%3D3%26sd%3D141466709787)  
+  - [SOIC8 CLIP](http://www.ebay.de/itm/SOIC8-SOP8-Flash-Chip-IC-Test-Clips-Socket-Adpter-BIOS-24-25-93-Programmer-MF/182230151497?_trksid=p2047675.c100011.m1850&_trkparms=aid%3D222007%26algo%3DSIC.MBE%26ao%3D1%26asc%3D42849%26meid%3D01ae9da74f4f4c93a1270e4bf7c08b36%26pid%3D100011%26rk%3D2%26rkt%3D3%26sd%3D141466709787)
+
+Then follow the following steps:
+
+1. Get in touch with an expert [bios-mods](www.bios-mods.com) (or contact the guy who helped me at pythonic2016@gmail.com). **Make sure you tip this person well for their work.**
+
+2. Once you have a person to help you. Open up your laptop and unplug your batteries (CMOS and the main battery that you need to remove in order to open up the laptop).
+  ![mobo](misc/images/lenovomod1.jpg)
+3. Locate your BIOS Chip (W25Q64BV ID:0xEF4017 Size: 8192KB). In terms of connecting the clip cable make sure PIN 1 of SPI and the Chip; there is a little mark; are connected (HQ Images on Github).
+  ![mobo2](misc/images/lenovomod2.jpg)
+
+4. Use the Software (CH341A) provided by your expert and create a dump. Send it to him and he will provide you with a new flashable image.
+
+5. You should be done if you did everything right. Test your laptop and if everything works upgrade your hardware!
 ### Installation
-- copy kext files to L/E
+- copy kext files to L/E (add the kexts in broadcom folders if you flashed your bios + installed the broadcom card I mentioned)
 - copy or modify clover.plist and use the kexts in Other dir
 - use my DSDT / SSDT or patch yourself (see below)
 - do VoodooPS2 install (see misc)
