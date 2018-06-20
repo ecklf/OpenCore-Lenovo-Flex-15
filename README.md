@@ -1,11 +1,14 @@
-# Lenovo Flex 2-15 Hackintosh
+# Lenovo Flex 15 59416277
 
-What works (currently using macOS 10.13.3):
+What works (currently using macOS 10.13.4):
   - Ethernet
   - Touchscreen
   - USB / Card Reader
-  - Hotkeys for Audio, Brightness (patched)
+  - Battery Status (patched)
+  - Multi-touch Trackpad Gestures
+  - Hotkeys for Audio and Brightness (patched)
   - Audio (Speakers, Jack and HDMI), Webcam + Microphone
+<<<<<<< HEAD
   - WIFI/Bluetooth (You can replace this with with Broadcom BCM94352HMB if you flash your BIOS (tutorial provided here))
 
 What does not work:
@@ -13,6 +16,16 @@ What does not work:
 
 Untested:
   - Sleep / Wake
+=======
+      > If it breaks reboot without kextcache and run: sudo touch /System/Library/Extensions && sudo kextcache -u /
+
+What does not work:
+  - Mic over Combojack (also not supported on any other OS)
+  - Wifi / Bluetooth (needs replacement card; and likely a whitelist removal; since Intel is not supported)
+
+Untested:
+  - Sleep / Wake (kinda problematic with hackintosh in general)
+>>>>>>> 78bf18e6302defd8f769e20ebf1de1ee7fd83370
 
 Based on (Big thanks to RehabMan):
   - [Laptop backlight control using AppleBacklightInjector.kext](https://www.tonymacx86.com/threads/guide-laptop-backlight-control-using-applebacklightinjector-kext.218222/)
@@ -54,7 +67,7 @@ Then follow the following steps:
     sudo cp org.rehabman.voodoo.driver.Daemon.plist /Library/LaunchDaemons
     sudo cp VoodooPS2Daemon /usr/bin
     ```
-- run the Trackpad install script (else you will have no tap to click)
+- run the Trackpad install script in "Install Trackpad" (else you will have no tap to click)
 - setup three finger gestures in Keyboard Settings (they emulate keystrokes as workaround)
 
 ### Manually creating DSDT/SSDT files
