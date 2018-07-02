@@ -1,6 +1,6 @@
 # Lenovo Flex 15 59416277
 
-What works (currently using macOS 10.13.4):
+What works (currently using macOS **10.13.5**):
   - Ethernet
   - Touchscreen
   - USB / Card Reader
