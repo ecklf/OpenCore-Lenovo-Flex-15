@@ -1,7 +1,7 @@
 # Created by aytic 2018-06-01, based on battery_Lenovo-Ideapad-Y700.txt
 
 # works for:
-# Lenovo IdeaPad Flex 2-15
+# Lenovo IdeaPad Flex 15
 
 # Based on following Field definition:
 # MCUR,   16, 
