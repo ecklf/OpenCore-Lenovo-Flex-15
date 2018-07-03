@@ -61,7 +61,11 @@ Then follow the following steps:
 - setup three finger gestures in Keyboard Settings (they emulate keystrokes as workaround)
 
 ### Manually creating DSDT/SSDT files
-Read up on one of RehabMan's guides and apply following patches
-- IRQ Fix
-- Audio Layout 3 (DSDT) and rename B0D3 to HDAU (SSDT-3-CB-01 with changed layout-id 3)
-- My battery and brightness control patch files
+Read up on one of RehabMan's guides and apply following patches:
+- DSDT
+  - IRQ Fix
+  - Audio Layout 3
+  - My brightness control patch
+  - Lenovo Ux10-Z580 battery patch
+- SSDT-3-CB-01 (with changed layout-id 3)
+  - rename B0D3 to HDAU

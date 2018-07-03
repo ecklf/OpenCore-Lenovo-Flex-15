@@ -1,5 +1,5 @@
 # Created by aytic 2018-06-01, based on battery_Lenovo-Ideapad-Y700.txt
-
+# Please use the Lenovo Ux10-Z580 patch instead!
 # works for:
 # Lenovo IdeaPad Flex 15
 
