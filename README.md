@@ -10,12 +10,11 @@ What works (currently using macOS **10.13.5**):
   - Audio (Speakers, Jack and HDMI), Webcam + Microphone
     > If it breaks reboot without kextcache and run: sudo touch /System/Library/Extensions && sudo kextcache -u /
   - WIFI/Bluetooth (You can replace this with with Broadcom BCM94352HMB if you flash your BIOS (tutorial provided here))
+  - Sleep / Wake
 
 What does not work:
   - Mic over Combojack (also not supported on any other OS)
-
-Untested:
-  - Sleep / Wake
+  - Hibernation
 
 Based on (Big thanks to RehabMan):
   - [Laptop backlight control using AppleBacklightInjector.kext](https://www.tonymacx86.com/threads/guide-laptop-backlight-control-using-applebacklightinjector-kext.218222/)
