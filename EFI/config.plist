@@ -184,7 +184,7 @@
 		<key>Secure</key>
 		<false/>
 		<key>Timeout</key>
-		<integer>0</integer>
+		<integer>5</integer>
 	</dict>
 	<key>Comment</key>
 	<string>This file is for Haswell graphics that require FakeID=0x04128086</string>
@@ -517,6 +517,16 @@
 			</dict>
 			<dict>
 				<key>Comment</key>
+				<string>0x0a260006 disable 0105 port, change 0204 port to HDMI (RehabMan) - fix bootlag for (12)</string>
+				<key>Name</key>
+				<string>com.apple.driver.AppleIntelFramebufferAzul</string>
+				<key>Find</key>
+				<data>AQUJAAAEAACHAAAAAgQJAAAEAACHAAAA</data>
+				<key>Replace</key>
+				<data>AgQSAAAIAACHAAAA/wAAAAEAAABAAAAA</data>
+			</dict>
+			<dict>
+				<key>Comment</key>
 				<string>HDMI-audio, port 0105, 0x0a260005 0x0a260006, 0x0d220003, 0x0a2e000a, 0x0a26000a</string>
 				<key>Disabled</key>
 				<true/>
@@ -547,7 +557,7 @@
 				<key>Comment</key>
 				<string>HDMI-audio, port 0204, 0x0a260005 0x0a260006</string>
 				<key>Disabled</key>
-				<false/>
+				<true/>
 				<key>Find</key>
 				<data>AgQJAAAEAACHAAAA</data>
 				<key>InfoPlistPatch</key>
@@ -693,7 +703,7 @@
 				<key>Comment</key>
 				<string>HDMI-audio, port 0204(12), 0x0a260005 0x0a260006</string>
 				<key>Disabled</key>
-				<true/>
+				<false/>
 				<key>Find</key>
 				<data>AgQJAAAEAACHAAAA</data>
 				<key>InfoPlistPatch</key>
