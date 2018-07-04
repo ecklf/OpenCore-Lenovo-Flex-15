@@ -239,7 +239,7 @@
 				<key>Device</key>
 				<string>NVidia</string>
 				<key>Disabled</key>
-				<false/>
+				<true/>
 				<key>Key</key>
 				<string>name</string>
 				<key>Value</key>
@@ -251,7 +251,7 @@
 				<key>Device</key>
 				<string>NVidia</string>
 				<key>Disabled</key>
-				<false/>
+				<true/>
 				<key>Key</key>
 				<string>IOName</string>
 				<key>Value</key>
@@ -263,7 +263,7 @@
 				<key>Device</key>
 				<string>NVidia</string>
 				<key>Disabled</key>
-				<false/>
+				<true/>
 				<key>Key</key>
 				<string>class-code</string>
 				<key>Value</key>
@@ -275,7 +275,7 @@
 				<key>Device</key>
 				<string>ATI</string>
 				<key>Disabled</key>
-				<false/>
+				<true/>
 				<key>Key</key>
 				<string>name</string>
 				<key>Value</key>
@@ -287,7 +287,7 @@
 				<key>Device</key>
 				<string>ATI</string>
 				<key>Disabled</key>
-				<false/>
+				<true/>
 				<key>Key</key>
 				<string>IOName</string>
 				<key>Value</key>
@@ -299,7 +299,7 @@
 				<key>Device</key>
 				<string>ATI</string>
 				<key>Disabled</key>
-				<false/>
+				<true/>
 				<key>Key</key>
 				<string>class-code</string>
 				<key>Value</key>
@@ -311,7 +311,7 @@
 				<key>Device</key>
 				<string>ATI</string>
 				<key>Disabled</key>
-				<false/>
+				<true/>
 				<key>Key</key>
 				<string>vendor-id</string>
 				<key>Value</key>
@@ -323,7 +323,7 @@
 				<key>Device</key>
 				<string>ATI</string>
 				<key>Disabled</key>
-				<false/>
+				<true/>
 				<key>Key</key>
 				<string>device-id</string>
 				<key>Value</key>
@@ -421,11 +421,11 @@
 		<key>Inject</key>
 		<dict>
 			<key>ATI</key>
-			<true/>
+			<false/>
 			<key>Intel</key>
 			<true/>
 			<key>NVidia</key>
-			<true/>
+			<false/>
 		</dict>
 		<key>ig-platform-id</key>
 		<string>0x0a260006</string>
