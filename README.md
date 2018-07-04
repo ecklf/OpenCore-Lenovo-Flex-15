@@ -67,5 +67,12 @@ Read up on one of RehabMan's guides and apply following patches:
   - Audio Layout 3
   - My brightness control patch
   - Lenovo Ux10-Z580 battery patch
+  - Add IMEI
+  - Fix Mutex with non-zero SyncLevel
+  - OS Check Fix (Windows 8)
+  - RTC fix
+  - HPET Fix
+  - Fix _WAK Arg0 v2
+  - USB3 _PWR 0x6D (instant wake)
 - SSDT-3-CB-01 (with changed layout-id 3)
   - rename B0D3 to HDAU
