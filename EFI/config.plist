@@ -178,13 +178,13 @@
 		<key>#DefaultVolume</key>
 		<string>LastBootedVolume</string>
 		<key>Arguments</key>
-		<string>dart=0 nv_disable=1 kext-dev-mode=1</string>
+		<string>dart=0 nv_disable=1 kext-dev-mode=1 abm_firstpolldelay=16000</string>
 		<key>NeverHibernate</key>
 		<true/>
 		<key>Secure</key>
 		<false/>
 		<key>Timeout</key>
-		<integer>5</integer>
+		<integer>0</integer>
 	</dict>
 	<key>Comment</key>
 	<string>This file is for Haswell graphics that require FakeID=0x04128086</string>
