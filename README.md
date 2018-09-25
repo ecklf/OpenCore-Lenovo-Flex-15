@@ -1,6 +1,11 @@
 # Lenovo Flex 15 59416277
 
-What works (currently using macOS **10.13.5**):
+**Notes for macOS Mojave:**
+
+No big compatibility issues there. The patched audio layout for High Sierra worked also for Mojave. The only thing that needed to be updated is Clover (use the latest version of Rehabmans repo currently: **r4658**) and **Lilu / AppleHDA** kexts. I had issues updating directly from High Sierra on multiple systems (worked it around with installing from a vanilla USB). The *works* list below has been already tested by myself. No compatibility issues as of now.
+
+
+What works (currently using macOS **10.14**):
   - Ethernet
   - Touchscreen
   - USB / Card Reader
@@ -25,7 +30,7 @@ Based on (Big thanks to RehabMan):
 ### Flashing your BIOS / Whitelist removal
 ##### Only do this with guidance of an expert or this can go bad!!!
 
-You **won't** be able to flash a new bios from a usb stick since this is write protected (even with sleep bug).
+You **won't** be able to flash a new bios from a usb stick since this is write protected (even with sleep bug). This laptop sadly has no Libreboot/Coreboot support, so you will need to get someone to unlock your image for you.
 
 Order those two parts online:
   - [SPI Programmer](http://www.ebay.de/itm/25-SPI-Serie-24-EEPROM-CH341A-BIOS-Writer-Routing-LCD-Flash-USB-Programmierer-S7/282248666466?_trksid=p2047675.c100011.m1850&_trkparms=aid%3D222007%26algo%3DSIC.MBE%26ao%3D1%26asc%3D42849%26meid%3D01ae9da74f4f4c93a1270e4bf7c08b36%26pid%3D100011%26rk%3D1%26rkt%3D3%26sd%3D141466709787)  
