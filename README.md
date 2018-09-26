@@ -38,7 +38,7 @@ Order those two parts online:
 
 Then follow the following steps:
 
-1. Get in touch with an expert [bios-mods](www.bios-mods.com) (or contact the guy who helped me at pythonic2016@gmail.com). **Make sure you tip this person well for their work.**
+1. Get in touch with an expert [bios-mods](http://www.bios-mods.com) (or contact the guy who helped me at pythonic2016@gmail.com). I don't get paid for linking this, I am just happy with the result and their work. Consider giving them a good tip!
 
 2. Once you have a person to help you. Open up your laptop and unplug your batteries (CMOS and the main battery that you need to remove in order to open up the laptop).
   ![mobo](misc/Images/lenovomod1.jpg)
