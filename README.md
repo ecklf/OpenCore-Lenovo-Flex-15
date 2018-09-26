@@ -14,7 +14,7 @@ What works (currently using macOS **10.14**):
   - Hotkeys for Audio and Brightness (patched)
   - Audio (Speakers, Jack and HDMI), Webcam + Microphone
     > If it breaks reboot without kextcache and run: sudo touch /System/Library/Extensions && sudo kextcache -u /
-  - WIFI/Bluetooth (You can replace this with with Broadcom BCM94352HMB if you flash your BIOS (tutorial provided here))
+  - WIFI/Bluetooth - Inbuilt Intel WiFi won't work! You can use the Broadcom BCM94352HMB if you flash your BIOS (see whitelist removal below)
   - Sleep / Wake
 
 What does not work:
@@ -30,7 +30,7 @@ Based on (Big thanks to RehabMan):
 ### Flashing your BIOS / Whitelist removal
 ##### Only do this with guidance of an expert or this can go bad!!!
 
-You **won't** be able to flash a new bios from a usb stick since this is write protected (even with sleep bug). This laptop sadly has no Libreboot/Coreboot support, so you will need to get someone to unlock your image for you.
+You **won't** be able to flash a new bios from a usb stick since this is write protected (even with sleep bug). This laptop sadly has no Libreboot / Coreboot support, so you will need to get someone to unlock your image for you.
 
 Order those two parts online:
   - [SPI Programmer](http://www.ebay.de/itm/25-SPI-Serie-24-EEPROM-CH341A-BIOS-Writer-Routing-LCD-Flash-USB-Programmierer-S7/282248666466?_trksid=p2047675.c100011.m1850&_trkparms=aid%3D222007%26algo%3DSIC.MBE%26ao%3D1%26asc%3D42849%26meid%3D01ae9da74f4f4c93a1270e4bf7c08b36%26pid%3D100011%26rk%3D1%26rkt%3D3%26sd%3D141466709787)  
@@ -52,6 +52,7 @@ Then follow the following steps:
 - copy kext files to L/E (add the kexts in broadcom folders if you flashed your bios + installed the broadcom card I mentioned)
 - copy or modify clover.plist and use the kexts in Other dir
 - use my DSDT / SSDT or patch yourself (see below)
+- run the install command for ALCPlugFix (see misc)
 - do VoodooPS2 install (see misc)
      ```
     # Remove conflicting kexts
