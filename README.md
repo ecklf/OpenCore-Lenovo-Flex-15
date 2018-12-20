@@ -1,11 +1,13 @@
 # Lenovo Flex 15 59416277
 
+**Currently not actively maintaining since I now use a MacBook** 
+
 **Notes for macOS Mojave:**
 
 No big compatibility issues there. The patched audio layout for High Sierra worked also for Mojave. The only thing that needed to be updated is Clover (use the latest version of Rehabmans repo currently: **r4658**) and **Lilu / AppleHDA** kexts. I had issues updating directly from High Sierra on multiple systems (worked it around with installing from a vanilla USB). The *works* list below has been already tested by myself. No compatibility issues as of now.
 
 
-What works (currently using macOS **10.14**):
+What works (as of macOS **10.14.2**):
   - Ethernet
   - Touchscreen
   - USB / Card Reader
