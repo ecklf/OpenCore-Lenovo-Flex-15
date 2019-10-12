@@ -5,7 +5,7 @@
 **Notes for macOS 10.15 Catalina:**
 
 Installer will not boot on old Mojave configuration on Catalina Beta 5 onwards. 
-Make sure to patch your `config.plist` to patch renaming EC0 to EC to have proper USB power mangement.
+Make sure to patch your `config.plist` to patch renaming EC0 to EC to have proper USB power management.
 
 Inbuilt Intel WiFi won't work! I use Broadcom BCM94352HMB (use brcm kexts if you also have this setup). For that card Catalina will also need a modified BrcmPatchRAM2 or your Bluetooth won't work
 
