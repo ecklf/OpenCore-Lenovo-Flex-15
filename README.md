@@ -4,13 +4,14 @@
 
 **Notes for macOS 10.15 Catalina:**
 
-No big compatibility issues there. The patched audio layout for High Sierra worked also for Catalina (and Mojave). Make sure you use latest Clover, AppleALC and Lilu (with -lilubetaall flag).
+Installer will not boot on old Mojave configuration on Catalina Beta 5 onwards. 
+Make sure to patch your `config.plist` to patch renaming EC0 to EC to have proper USB power mangement.
 
-Inbuilt Intel WiFi won't work! I use Broadcom BCM94352HMB (use brcm kexts if you also have this setup). For that card Catalina will need a modified BrcmPatchRAM2 or your Bluetooth won't work
+Inbuilt Intel WiFi won't work! I use Broadcom BCM94352HMB (use brcm kexts if you also have this setup). For that card Catalina will also need a modified BrcmPatchRAM2 or your Bluetooth won't work
 
-The **works** list below has been already tested on 10.15 public beta by myself. No compatibility issues as of now.
+The **works** list below has been already tested by myself. No compatibility issues as of now.
 
-What works (as of macOS **10.15b**):
+What works (as of macOS **10.15 19A583**):
 
 - Ethernet
 - Touchscreen
@@ -60,12 +61,12 @@ Then follow the following steps:
 
 ## Installation
 
-- copy kext to L/E or to CLOVER/kexts/Other (add Brcm if needed)
+- copy kext to L/E or to CLOVER/kexts/Other (add Broadcom kexts if needed)
 - use attached config.plist
-- make sure your Clover uses same drivers64UEFI in my textfile
+- make sure your Clover configuration uses the same UEFI drivers
 - use my DSDT / SSDT or patch yourself (see below)
 - run the install command for ALCPlugFix (see misc)
-- do VoodooPS2 install (see misc)
+- do VoodooPS2 install (skip this if you already see trackpad settings)
   ```
   # Remove conflicting kexts
   sudo rm -rf /System/Library/Extensions/AppleACPIPS2Nub.kext
