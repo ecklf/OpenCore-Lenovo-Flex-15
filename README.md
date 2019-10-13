@@ -5,16 +5,13 @@
 **Notes for macOS 10.15 Catalina:**
 
 Installer will not boot on old Mojave configuration on Catalina Beta 5 onwards. 
-Make sure to patch your `config.plist` to patch renaming EC0 to EC to have proper USB power management.
+Make sure to modify your `config.plist` to patch renaming EC0 to EC to have proper USB power management.
 
 Inbuilt Intel WiFi won't work! I use Broadcom BCM94352HMB (use brcm kexts if you also have this setup). For that card Catalina will also need a modified BrcmPatchRAM2 or your Bluetooth won't work
-
-The **works** list below has been already tested by myself. No compatibility issues as of now.
 
 What works (as of macOS **10.15 19A583**):
 
 - Ethernet
-- Touchscreen
 - USB / Card Reader
 - Battery Status (patched)
 - Multi-touch Trackpad Gestures
@@ -26,6 +23,10 @@ What works (as of macOS **10.15 19A583**):
   > If it breaks reboot without kextcache and run: sudo touch /System/Library/Extensions && sudo kextcache -u /
 - WIFI/Bluetooth - Broadcom BCM94352HMB (see BIOS whitelist removal)
 - Sleep / Wake
+
+Not working:
+- Touchscreen
+
 
 Based on (**BIG THANKS** to RehabMan):
 
@@ -66,7 +67,7 @@ Then follow the following steps:
 - make sure your Clover configuration uses the same UEFI drivers
 - use my DSDT / SSDT or patch yourself (see below)
 - run the install command for ALCPlugFix (see misc)
-- do VoodooPS2 install (skip this if you already see trackpad settings)
+- do VoodooPS2 install
   ```
   # Remove conflicting kexts
   sudo rm -rf /System/Library/Extensions/AppleACPIPS2Nub.kext
