@@ -62,12 +62,13 @@ Then follow the following steps:
 
 ## Installation
 
-- copy kext to L/E or to CLOVER/kexts/Other (add Broadcom kexts if needed)
-- use attached config.plist
-- make sure your Clover configuration uses the same UEFI drivers
-- use my DSDT / SSDT or patch yourself (see below)
-- run the install command for ALCPlugFix (see misc)
-- do VoodooPS2 install
+- Copy kexts to L/E or to CLOVER/kexts/Other (add Broadcom kexts if needed)
+- Fix permissions and rebuild kextcache if using L/E
+- Use attached config.plist
+- Make sure your Clover configuration uses the same UEFI drivers
+- Use my DSDT / SSDT or patch yourself (see below)
+- Run the install command for ALCPlugFix (see misc)
+- Do VoodooPS2 install
   ```
   # Remove conflicting kexts
   sudo rm -rf /System/Library/Extensions/AppleACPIPS2Nub.kext
@@ -76,7 +77,7 @@ Then follow the following steps:
   sudo cp org.rehabman.voodoo.driver.Daemon.plist /Library/LaunchDaemons
   sudo cp VoodooPS2Daemon /usr/bin
   ```
-- setup three finger gestures in Keyboard Settings (they emulate keystrokes as workaround)
+- Set up three finger gestures in Keyboard Settings (they emulate keystrokes as workaround)
 
 ## Troubleshooting
 
