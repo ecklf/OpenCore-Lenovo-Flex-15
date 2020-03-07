@@ -1,5 +1,4 @@
 drivers
-├── BIOS
 └── UEFI
     ├── ApfsDriverLoader.efi
     ├── AudioDxe.efi
