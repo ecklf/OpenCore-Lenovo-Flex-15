@@ -7,9 +7,11 @@
 Installer will not boot on old Mojave configuration on Catalina Beta 5 onwards. 
 Make sure to modify your `config.plist` to patch renaming EC0 to EC to have proper USB power management.
 
-Inbuilt Intel WiFi won't work! I use Broadcom BCM94352HMB (use brcm kexts if you also have this setup). For that card Catalina will also need a modified BrcmPatchRAM2 or your Bluetooth won't work
+Booting Catalina from USB will either require installing with a port limit patch + USB2 or my my USBMap.kext. Note that this kext may not work for you which will result in no USB3 functionality and Bluetooth connection problems.
 
-What works (as of macOS **10.15 19A583**):
+Inbuilt Intel WiFi won't work! I use Broadcom BCM94352HMB (use brcm kexts if you also have this setup). For that card Catalina will also need a modified BrcmPatchRAM or your Bluetooth won't work.
+
+What works (as of macOS **10.15.3 19D76**):
 
 - Ethernet
 - USB / Card Reader
@@ -68,20 +70,8 @@ Then follow the following steps:
 - Make sure your Clover configuration uses the same UEFI drivers
 - Use my DSDT / SSDT or patch yourself (see below)
 - Run the install command for ALCPlugFix (see misc)
-- Do VoodooPS2 install
-  ```
-  # Remove conflicting kexts
-  sudo rm -rf /System/Library/Extensions/AppleACPIPS2Nub.kext
-  sudo rm -rf /System/Library/Extensions/ApplePS2Controller.kext
-  # add the Daemon to startup
-  sudo cp org.rehabman.voodoo.driver.Daemon.plist /Library/LaunchDaemons
-  sudo cp VoodooPS2Daemon /usr/bin
-  ```
+- Do VoodooPS2 [install](https://github.com/acidanthera/VoodooPS2)
 - Set up three finger gestures in Keyboard Settings (they emulate keystrokes as workaround)
-
-## Troubleshooting
-
-If you don't see Trackpad settings use my "Install Trackpad" script. Any other issue? Feel free to open an issue on [GitHub](https://github.com/impulse/Lenovo-Flex-15-Hackintosh)
 
 ## Manually creating DSDT/SSDT files
 
