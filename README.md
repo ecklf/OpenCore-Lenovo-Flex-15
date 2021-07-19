@@ -2,16 +2,19 @@
 
 ![screenshot](misc/Images/screen.png)
 
-**Notes for macOS 10.15 Catalina:**
+**Notes for macOS 12 Monterey:**
 
-Installer will not boot on old Mojave configuration on Catalina Beta 5 onwards. 
-Make sure to modify your `config.plist` to patch renaming EC0 to EC to have proper USB power management.
+SMBIOS bumped to `MacBookPro12,1` since Monterey dropped support for older Macs.
 
-Booting Catalina from USB will either require installing with a port limit patch + USB2 or my my USBMap.kext. Note that this kext may not work for you which will result in no USB3 functionality and Bluetooth connection problems.
+Installer will not boot on without proper power management since macOS 10.15.
+Booting from USB will either require installing with a port limit patch + USB2 or my USBMap.kext.
+My USBMap will only work for `MacBookPro12,1` SMBIOS.
 
-Inbuilt Intel WiFi won't work! I use Broadcom BCM94352HMB (use brcm kexts if you also have this setup). For that card Catalina will also need a modified BrcmPatchRAM or your Bluetooth won't work.
+Inbuilt Intel WiFi may work with [itlwm](https://github.com/OpenIntelWireless/itlwm), but can't test since I sold and replaced. I use Broadcom BCM94352HMB (only use Brcm kexts if you also have this setup).
 
-What works (as of macOS **10.15.3 19D76**):
+Either way make sure using `BlueToolFixup.kext` instead of `BrcmBluetoothInjector.kext` or `IntelBluetoothInjector.kext` on macOS 12.
+
+What works (as of macOS **12 beta 2**):
 
 - Ethernet
 - USB / Card Reader
@@ -22,27 +25,26 @@ What works (as of macOS **10.15.3 19D76**):
   - Out: Speakers, Jack and HDMI
   - In: Webcam (Motherboard does not support combojack input)
 - Webcam + Microphone
-  > If it breaks reboot without kextcache and run: sudo touch /System/Library/Extensions && sudo kextcache -u /
 - WIFI/Bluetooth - Broadcom BCM94352HMB (see BIOS whitelist removal)
 - Sleep / Wake
 
 Not working:
+
 - Touchscreen
 
+Links:
 
-Based on (**BIG THANKS** to RehabMan):
-
-- [Laptop backlight control using AppleBacklightInjector.kext](https://www.tonymacx86.com/threads/guide-laptop-backlight-control-using-applebacklightinjector-kext.218222/)
 - [AppleHDA for Realtek ALC283](https://www.tonymacx86.com/threads/solved-help-fixing-applehda-for-realtek-alc283.165181/page-4)
-- [Intel IGPU HDMI/DP audio](https://www.tonymacx86.com/threads/guide-intel-igpu-hdmi-dp-audio-sandy-ivy-haswell-broadwell-skylake.189495/)
 - [Broadcom WiFi/Bluetooth [Guide]](https://www.tonymacx86.com/threads/broadcom-wifi-bluetooth-guide.242423/#post-1664577)
-- [BrcmPatchRAM2 for 10.15 Catalina](https://www.insanelymac.com/forum/topic/339175-brcmpatchram2-for-1015-catalina-broadcom-bluetooth-firmware-upload/)
+- [BrcmPatchRAM](https://github.com/acidanthera/BrcmPatchRAM)
+
+Also big thanks to RehabMan for all his amazing resources.
 
 ## Flashing your BIOS / Whitelist removal
 
-#### Only do this with guidance of an expert or this can go bad!!!
+### Only do this with guidance of an expert
 
-You **won't** be able to flash a new bios from a usb stick since this is write protected (even with sleep bug). This laptop sadly has no Libreboot / Coreboot support, so you will need to get someone to unlock your image for you.
+You **won't** be able to flash a new BIOS from a USB stick since this is write protected (even with sleep bug). This laptop sadly has no Libreboot / Coreboot support, so you will need to get someone to unlock your image for you.
 
 Order those two parts online:
 
@@ -64,14 +66,9 @@ Then follow the following steps:
 
 ## Installation
 
-- Copy kexts to L/E or to CLOVER/kexts/Other (add Broadcom kexts if needed)
-- Fix permissions and rebuild kextcache if using L/E
-- Use attached config.plist
-- Make sure your Clover configuration uses the same UEFI drivers
-- Use my DSDT / SSDT or patch yourself (see below)
-- Run the install command for ALCPlugFix (see misc)
-- Do VoodooPS2 [install](https://github.com/acidanthera/VoodooPS2)
-- Set up three finger gestures in Keyboard Settings (they emulate keystrokes as workaround)
+- Add Serial / UUID / MLB for `MacBookPro12,1`
+- Remove / Disable Brcm Kexts if you don't use a Broadcom card.
+- Run the install command for ALCPlugFix if you face AUX hotplug issues (see misc)
 
 ## Manually creating DSDT/SSDT files
 
@@ -90,4 +87,4 @@ Read up on one of RehabMan's guides and apply following patches:
   - Fix \_WAK Arg0 v2
   - USB3 \_PWR 0x6D (instant wake)
 - SSDT-3-CB-01 (with changed layout-id 3)
-  - rename B0D3 to HDAU
+  - Rename B0D3 to HDAU
